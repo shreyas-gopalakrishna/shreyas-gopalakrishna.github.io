@@ -46,6 +46,9 @@
         <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#experience">Technical Experience</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+        </li>
         <!-- <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
@@ -87,7 +90,7 @@
       </div>
     </section>
 
-    
+
     <hr class="m-0">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
@@ -195,10 +198,10 @@
             <div class="subheading mb-3">Walmart Labs</div>
             <ul>
               <li>
-                Investigated improvement archivable using Presto in place of conventional Hadoop jobs for data query and data integration
+                Investigated improvement archivable using Presto in place of conventional Hadoop jobs for data query and data integration.
               </li>
               <li>
-                Implemented Hadoop jobs to create data stores that processing and integrating data coming from multiple Walmart stores.
+                Implemented Hadoop jobs to create data stores by processing and integrating data coming from multiple Walmart stores.
               </li>
             </ul>
             <div>
@@ -213,6 +216,128 @@
       </div>
 
     </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="project">
+      <div class="w-100">
+        <h2 class="mb-5">Projects</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Concurrent Skip list</h3>
+            <ul>
+              <li>
+                  Implemented a wait-free concurrent skip list that supports get, put, delete, and range queries using hand over hand locking.
+              </li>
+              <li>
+                  Experimental explorations across high contention, low contention, and memory leaks were performed.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - C++</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Scalable Service to OCR and Store documents</h3>
+            <ul>
+              <li>
+                  Developed a scalable service that performs character recognition, words indexing, and content classification on documents.
+              </li>
+              <li>
+                  Implemented backend REST server in Flask, used RabbitMQ for message passing across instances and SQL for storing the
+                  documents. Used Google Vision for OCR and Natural Language API for content classification.
+              </li>
+              <li>
+                  Deployed the project in GCP using docker containers. Implemented container-orchestration and scaling using Kubernetes.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - Python, Flask, GCP, Redis, RabbitMQ, Docker, Kubernetes, MySQL</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Vehicle routing with simultaneous pickup and delivery</h3>
+            <ul>
+              <li>
+                Implemented the linear program formulations of the Capacity VRP and VRP with Simultaneous Pickup and Delivery.
+              </li>
+              <li>
+                Created executable package in PuLP and Gurobi with visualizations of the solution.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - Python, PuLP, Gurobi</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">GitHub Analyzer</h3>
+            <ul>
+              <li>
+                  GitHub Analyzer is a tool to view statistics of any GitHub organization page. The page displays top contributors,
+                  languages, trending repositories, automated issue assignment, and displays technology specific jobs through LinkedIn.
+              </li>
+              <li>
+                  Used Cassandra for data storage, Elastic search for indexing, analytics and Flask to service these data.
+                  The project was deployed in GCP using Docker containers and scaled using Kubernetes.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - Python, Flask, GCP, Elastic search, Cassandra, RabbitMQ, Docker, Kubernetes</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Low-cost method to create Chalk Talk Videos</h3>
+            <ul>
+              <li>
+                  Recreation of class notes by recording audio of a professor during the lecture, taking a series of photos
+                  of his notes using an Android Application, and creating a video. Converted Images to SVG for better Image scalability.
+              </li>
+              <li>
+                  Achieved an average size reduction of 80% compared to normal video lectures.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - Android, Java, Image Processing, XML </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Sports Result Prediction</h3>
+            <ul>
+              <li>
+                Created a statistical model using k-means clustering using the data of players and performance history from previous cricket matches.
+                Used Hadoop, Hive, Spark to store, and process data.
+              </li>
+              <li>
+                Given new teams and its players, the model predicted the winner of matches with an accuracy of about 86%.
+              </li>
+            </ul>
+            <div>
+              <p><b>Technologies</b> - Python, Hadoop, Hive, Spark</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
 
   </div>
 
